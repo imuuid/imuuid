@@ -3,18 +3,31 @@
 </p>
 
 ```js
-import SoftwareDeveloper from 'uuid';
+import Developer from 'uuid';
 
-class Bio extends SoftwareDeveloper {
+class Bio extends Developer {
   name     = 'uuid';
   title    = 'Reverse Engineer & Developer';
   location = 'Italy';
 }
 
-class Skills extends SoftwareDeveloper {
+class Skills extends Developer {
   languages  = ['GoLang', 'Python', 'JavaScript'];
   databases  = ['MySQL', 'MongoDB'];
   frameworks = ['React'];
+}
+
+class Skills extends Developer {
+  languages  = ['GoLang', 'Python', 'JavaScript'];
+  databases  = ['MySQL', 'MongoDB'];
+  frameworks = ['React'];
+}
+class Projects extends Developer {
+  2023  = ['Randoms'];
+  2022  = ['Scammers', 'IntruserSQ'];
+  2021  = ['IntruserSQ'];
+  2020  = ['IntruserSQ'];
+
 }
 ```
 
