@@ -6,37 +6,31 @@
 import Developer from 'uuid';
 
 class Bio extends Developer {
-  name     = 'uuid';
-  title    = 'Reverse Engineer & Developer';
+  name = 'uuid';
+  title = 'Reverse Engineer & Developer';
   location = 'Italy';
 }
 
 class Skills extends Developer {
-  languages  = ['GoLang', 'Python', 'JavaScript'];
-  databases  = ['MySQL', 'MongoDB'];
+  languages = ['GoLang', 'Python', 'JavaScript'];
+  databases = ['MySQL', 'MongoDB'];
   frameworks = ['React'];
 }
 
-class Skills extends Developer {
-  languages  = ['GoLang', 'Python', 'JavaScript'];
-  databases  = ['MySQL', 'MongoDB'];
-  frameworks = ['React'];
-}
-class Websites extends Developer {
-  skidders  = ['https://skidders.eu/'];
-  uuid_bio  = ['https://imuuid.com/'];
-  randoms  = ['https://discord.gg/randoms'];
-}
 class Projects extends Developer {
   constructor() {
     super();
     this.projects = {
-      '2023': [{ discord: 'Randoms', profit: 0 }], /*LOL*/
-      '2022': [{ discord: 'Scammers', profit: 2500 }, { name: 'IntruserSQ', profit: 2000 }],
-      '2021': [{ discord: 'IntruserSQ', profit: 300 }],
-      '2020': [{ discord: 'IntruserSQ', profit: 0 }],
+      '2023': [{ name: 'Randoms', profit: 0 }],
+      '2022': [
+        { name: 'Scammers', profit: true },
+        { name: 'IntruserSQ', profit: true }
+      ],
+      '2021': [{ name: 'IntruserSQ', profit: true }],
+      '2020': [{ name: 'IntruserSQ', profit: true }]
     };
   }
 }
+
 ```
 
