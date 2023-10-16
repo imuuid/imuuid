@@ -23,11 +23,16 @@ class Skills extends Developer {
   frameworks = ['React'];
 }
 class Projects extends Developer {
-  2023  = ['Randoms'];
-  2022  = ['Scammers', 'IntruserSQ'];
-  2021  = ['IntruserSQ'];
-  2020  = ['IntruserSQ'];
-
+  constructor() {
+    super();
+    this.projects = {
+      '2023': [{ name: 'Randoms', profit: 0 }], /*LOL*/
+      '2022': [{ name: 'Scammers', profit: 2500 }, { name: 'IntruserSQ', profit: 2000 }],
+      '2021': [{ name: 'IntruserSQ', profit: 300 }],
+      '2020': [{ name: 'IntruserSQ', profit: 0 }],
+    };
+  }
 }
+
 ```
 
