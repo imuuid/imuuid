@@ -9,26 +9,38 @@ import Developer from 'uuid';
 class Bio extends Developer {
   name = 'uuid';
   title = 'Reverse Engineer & Developer';
-  location = 'Italy';
+  location = 'Switzerland';
 }
 
 class Skills extends Developer {
-  languages = ['GoLang', 'Python', 'JavaScript'];
+  languages = ['GoLang', 'Python'];
   databases = ['MySQL', 'MongoDB'];
-  frameworks = ['React'];
 }
 
 class Projects extends Developer {
   constructor() {
     super();
     this.projects = {
-      '2023': [{ name: 'Randoms', profit: 0 }],
-      '2022': [
-        { name: 'Scammers', profit: true },
-        { name: 'IntruserSQ', profit: true }
+      '2025': [
+        { name: 'CicadaHost', profit: "X'XXX+" },
+        { name: 'IntenseSecurity', profit: "XX'XXX+" },
+        { name: '??????', profit: "XX'XXX+" },
+        { name: 'DstatEuis', profit: "0" },
+        { name: 'Yappers', profit: "0" }
       ],
-      '2021': [{ name: 'IntruserSQ', profit: true }],
-      '2020': [{ name: 'IntruserSQ', profit: true }]
+      '2024': [
+        { name: 'IntenseSecurity', profit: "XX'XXX+" }
+      ],
+      '2023': [
+        { name: 'IntenseSecurity', profit: "X'XXX+" },
+        { name: 'Randoms', profit: "0" }
+      ],
+      '2022': [
+        { name: 'Scammers', profit: "XXX" },
+        { name: 'IntruserSQ', profit: "X'XXX" }
+      ],
+      '2021': [{ name: 'IntruserSQ', profit: "XXX" }],
+      '2020': [{ name: 'IntruserSQ', profit: "XXX" }]
     };
   }
 }
