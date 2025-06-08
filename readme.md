@@ -22,25 +22,25 @@ class Projects extends Developer {
     super();
     this.projects = {
       '2025': [
-        { name: 'CicadaHost', profit: "X'XXX+" },
-        { name: 'IntenseSecurity', profit: "XX'XXX+" },
-        { name: '??????', profit: "XX'XXX+" },
-        { name: 'DstatEuis', profit: "0" },
-        { name: 'Yappers', profit: "0" }
+        { name: 'CicadaHost', profit: "X" },
+        { name: 'IntenseSecurity', profit: "X" },
+        { name: '??????', profit: "X" },
+        { name: 'DstatEuis', profit: "X" },
+        { name: 'Yappers', profit: "X" }
       ],
       '2024': [
-        { name: 'IntenseSecurity', profit: "XX'XXX+" }
+        { name: 'IntenseSecurity', profit: "X" }
       ],
       '2023': [
-        { name: 'IntenseSecurity', profit: "X'XXX+" },
-        { name: 'Randoms', profit: "0" }
+        { name: 'IntenseSecurity', profit: "X" },
+        { name: 'Randoms', profit: "X" }
       ],
       '2022': [
-        { name: 'Scammers', profit: "XXX" },
-        { name: 'IntruserSQ', profit: "X'XXX" }
+        { name: 'Scammers', profit: "X" },
+        { name: 'IntruserSQ', profit: "X" }
       ],
-      '2021': [{ name: 'IntruserSQ', profit: "XXX" }],
-      '2020': [{ name: 'IntruserSQ', profit: "XXX" }]
+      '2021': [{ name: 'IntruserSQ', profit: "X" }],
+      '2020': [{ name: 'IntruserSQ', profit: "X" }]
     };
   }
 }
